@@ -1,0 +1,255 @@
+*,html,body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Arvo', serif;
+}
+
+h1,p{
+	color: #3f3f3f;
+}
+
+
+/*----------------Header---------------*/
+
+header .logo h1{
+	font-weight: 300;
+	margin-top: 0;
+	padding-top: .5em;
+	letter-spacing: 2px;
+}
+
+
+header{
+	height: 230px;
+	text-align: center;
+}
+
+header .logo{
+	font-weight: 200;
+	font-size: 1.2em;
+}
+
+header li{
+	margin: 1em;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	padding: 4px 20px;
+	border: 1px solid #d8192f ;
+}
+
+header .main-nav a{
+	color: #d8192f;
+	
+}
+
+header a:hover,
+#active a,
+#btn{
+	background-color: #d8192f;
+	color: #fff;
+}
+
+#active a:hover{
+	background-color: #19d8c2
+}
+
+/*---------------Jumbotron----------------*/
+
+.jumbotron{
+	height: 480px;
+	background-image:url("http://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+#tag-line{
+	position: absolute;
+	text-align: right;
+	right: 25%;
+	top: 8%;
+}
+
+#tag-line p{
+	font-size: 2.8em;
+	color: #fff;
+}
+
+/*------------------Learn-more----------------*/
+
+.learn-more{
+	height: 160px;
+	background-color: #36343f;
+	text-align: center;
+	padding-top: 2em;
+}
+
+.learn-more p,a{
+	color: #fff;
+}
+
+.learn-more p{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-weight: 200;
+}
+
+/*---------------Menu-tag--------------*/
+
+.menu-tag{
+	font-size: .8em;
+	text-align: center;
+	border-bottom: .5px solid lightgrey;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*---------------Recipes--------------*/
+
+.recipes{
+	text-align: center;
+	padding: 1em;
+}
+
+.recipes .col{
+	height: 100px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.recipes .col h1{
+	color: #d8192f;
+	font-size: 1.5em;
+	font-weight: 200;
+}
+
+/*--------------Footer-----------------*/
+
+footer{
+	height: 120px;
+	background-color: #e0e0e0;
+}
+
+.footer-content{
+	padding:1.5em;
+}
+
+.footer-content p{
+	padding-bottom: .3em;
+	font-size: .8em;
+}
+
+
+/*------------------Media Quaries-------------*/
+
+@media(min-width: 749px){
+
+
+	header .container{
+		width: 80%;
+		margin-left: 5%;
+	}
+
+	header{
+		height: 75px;
+		background-color: #fff;
+	}
+
+	header .logo{
+		float:left;
+	}
+
+	header .main-nav{
+		float: right;
+	}
+
+	header .main-nav li{
+		display: inline-block; /* You can also write "float:left" */
+		margin: 1.4em .2em;
+	}
+
+	header a,
+	#btn{
+		width: 100px;
+		height: 20px;
+		padding: 6px 10px;
+		border-radius: 4px;
+	}
+
+	#tag-line p{
+		font-size: 3.5em;
+		right: 35%;
+	}
+
+	.learn-more p{
+		font-size: 1.5em;
+	}
+
+	.menu-tag{
+		text-align: left;
+	}
+	.menu-tag h1{
+		font-weight: 200;
+	}
+
+	.recipes{
+		height: 130px;
+	}
+
+	.recipes .col-container{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.recipes .col-container .col{
+		width: 215px;
+	}
+
+	.recipes .col-container .col h1{
+		font-size: 2em;
+	}
+
+	.footer-content{
+		text-align: center;
+	}
+
+	.footer-content p{
+		display: inline-block;
+		font-size: 1em;
+		margin:1em 2.5em;
+	}
+
+	@media(min-width: 1050px){
+
+		header .container{
+			width: 65%;
+			margin-left: 15%;
+		}
+
+		#tag-line p{
+			font-size: 4em;
+		}
+
+		.menu-tag{
+			border-bottom: .1px solid lightgrey;
+			width: 70%;
+			margin: 0 auto;
+		}
+
+		.menu-tag h1{
+			padding-top: 1em;
+		}
+	}
+
+
+
+
+

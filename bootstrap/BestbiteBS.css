@@ -1,0 +1,124 @@
+header .container{
+	max-width: 850px;
+}
+
+body{
+	font-family: 'Arvo', serif;
+}
+
+.navbar-brand{
+	font-size: 1.7em;
+}
+
+.navbar-nav a{
+	margin-right: 1.4em;
+}
+
+header .container .collapse .nav-pills a{
+  color: #d8192f;
+}
+
+header .container .collapse .nav-pills .active,
+header .container .nav-pills .nav-link:hover,
+.banner .btn:hover{
+	background-color:rgba(216,25,47,1);
+	box-shadow:0 2px 4px rgba(0,0,0,.5); 
+	color:#fff;
+}
+
+.jumbotron{
+	height: 500px;
+	background-image: url("http://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg");
+	background-size: cover;
+}
+
+.jumbotron p{
+	font-size: 2.8em;
+	line-height: 1em;
+}
+
+.banner{
+	height: 180px;
+	background-color:#36343f;
+}
+
+.banner p{
+	font-size: .85em;
+}
+
+.banner .btn{
+	color:#fff;
+	background-color: rgba(216,25,47,.5);
+}
+
+.menu-tag .container{
+	border-bottom: .1px solid #e6e6e6;
+	margin: 0 2em;
+}
+
+.recipes h3{
+	font-size: 1.65em;
+	color: red;
+}
+
+.recipes p{
+	font-size: .85em;
+}
+
+footer{
+	background-color: #eeeeee;
+}
+
+footer p{
+	font-size: .85em;
+}
+
+@media(min-width: 576px){
+
+	.navbar-brand{
+		font-size: 2.4em;
+	}
+
+	.banner p{
+		font-size: 1.35em;
+	}
+
+	.recipes .col-sm-4{
+		max-width: 210px;
+	}
+
+	.recipes h3{
+		font-size: 2em;
+	}
+
+	.recipes p{
+		font-size: .95em;
+	}
+
+	footer{
+		height: 110px;
+	}
+
+	footer p{
+		font-size: 1em;
+	}
+}
+
+@media(min-width: 768px){
+
+	.jumbotron p{
+		font-size: 3.8em;
+	}
+
+	.jumbotron .container{
+		max-width: 800px;
+	}
+
+	footer .container{
+		max-width: 950px;
+	}
+}
+
+
+
+

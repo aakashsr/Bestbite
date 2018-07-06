@@ -1,0 +1,157 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+}
+
+header{
+	height: 70px;
+	border: 1px solid grey;
+}
+
+header nav li,
+header nav ul,
+header nav,
+header .logo,
+header .logo h1{
+	display: inline-block;
+}
+
+header .logo,
+header nav{
+	width: calc(100% / 12 * 5);
+}
+
+header .logo{
+	text-align: center;
+}
+
+header h1{
+	font-weight: 400;
+}
+nav a{
+	text-decoration: none;
+	color: red;
+	padding: 8px 14px;
+	border-radius: 4px;
+}
+
+
+.active a,
+.more a:hover,
+nav li a:hover{
+	background-color: #d8192f;
+	color: #fff;
+}
+
+.active a:hover{
+	background-color: #19d8c2
+}
+
+/*main*/
+
+.jumbotron{
+	height: 510px;
+	background-image:url("http://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg");
+	background-size: cover;
+}
+
+.jumbotron .title{
+	padding-top: 65px;
+}
+.jumbotron p{
+	text-align: right;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 6px;
+	font-size: 3.8em;
+	margin-right: 380px;
+	
+}
+
+.more{
+	height: 180px;
+	text-align: center;
+	color: #fff;
+	background-color:#36343f;
+}
+
+.more p{
+	font-size: 1.6em;
+	margin-top: 0;
+	padding-top: 60px;
+}
+
+.more a{
+	text-decoration: none;
+	color: #fff;
+	padding: 6px 18px;
+	background-color:rgba(216,25,47,.5);
+	border-radius: 4px;
+}
+
+/*tag-line*/
+
+
+.menu-tag{
+	width: 60%;
+	height: 70px;
+	border-bottom: .5px solid lightgrey;
+	margin: 0 auto;
+}
+
+.menu-tag h1{
+	font-weight: 400;
+	font-size: 1.6em;
+	padding-top: 16px;
+	color: #3f3f3f;
+}
+
+
+/*section*/
+
+.Recipes{
+	height: 160px;
+	text-align: center;
+	
+}
+
+ .Col{
+	width: 15%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 32px;
+	margin-left: 125px;
+	margin-right: 125px;
+}
+
+.Col h1{
+	color: #d8192f;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.Recipes .Col p{
+	color: #3f3f3f;
+}
+
+
+
+/*footer*/
+
+footer{
+	height: 100px;
+	background-color: #e0e0e0;
+	text-align: center;
+}
+
+.footer-col{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	color: #3f3f3f;
+	padding-top: 15px;
+}
+
+

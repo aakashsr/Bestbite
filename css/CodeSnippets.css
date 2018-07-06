@@ -1,0 +1,48 @@
+*,html,body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Arvo', serif;
+}
+
+h1,p{
+	color: #3f3f3f;
+}
+
+
+
+@media(min-width: 749px){
+
+	header{
+		background-color: aqua;
+		height: 75px;
+		
+	}
+	
+	header .container{
+		width: 80%;
+		margin-left: 5%;
+		border: .4px solid red;
+	}
+
+	.clear::after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	header .logo{
+		float:left;
+	}
+
+	header .main-nav{
+		float: right;
+	}
+
+	header .main-nav li{
+		display: inline-block; /* You can also write "float:left" */
+		margin: 1.4em .2em;
+		list-style: none;
+	}
